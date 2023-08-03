@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        boolean productAvalibility=true;
-        
-        System.out.println("Hello world!");
+        boolean productAvaliable=true;
+        if(productAvaliable){
+            System.out.println("yes");
+        }else{
+            System.out.println("no");
+        }
+        System.out.println("The code is complete!");
     }
 }
